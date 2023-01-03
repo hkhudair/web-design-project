@@ -283,6 +283,12 @@ img {
   box-shadow: 0 -1px 4px rgba(0, 0, 0, .15);
   background-color: var(--header-color);
   backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  -moz-backdrop-filter: blur(12px);
+}
+
+.hidden {
+  display: none;
 }
 
 /*==================== HOME ====================*/
