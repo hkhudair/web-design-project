@@ -654,7 +654,7 @@ transform: translate(6px, -7px);
   z-index: var(--z-modal);
   /* opacity: 0; */
   
-  transition: 3s;
+  transition: .3s;
 }
 
 .services__modal-content{

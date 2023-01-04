@@ -15,6 +15,7 @@ if (navToggle) {
 /* Validate if constant exists */
 if (navClose) {
     navClose.addEventListener('click', () => {
+        console.log('close')
         navMenu.classList.remove('show-menu')
     })
 }
